@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text1{
+    display: flex;
+    align-items: center;
+}
+.second{
+    font-size: 20px;
+
+}
+.text2{
+    font-size: 40px;
+    font
+}
+.pic1{
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+.shorthands{
+    background-color: black; 
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    color: white;
+    letter-spacing: 5px;
+}
+#first{
+    font-size: 40px;
+}
+#second{
+    font-size: 60px;
+}
+.box1,.box2,.box3{
+    height: 300px;
+    width: 300px;
+    box-shadow: 10px 10px 10px black;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.work{
+    display: flex;
+    justify-content: space-around;
+    height: 40vw;
+    align-items: center;
+}
+.pic2{
+    background-image: url('images1.jpeg');
+    width: 300px;
+    height:100px;
+    background-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.heading1, .heading2, .heading3{
+    position: relative;
+    left: 66px;
+    text-decoration: underline;
+}
+.para1, .para2, .para3{
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
+.pic3{
+    background-image: url('images2.jpeg');
+    width: 300px;
+    height:100px;
+    background-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.pic4{
+    background-image: url('images.jpeg');
+    width: 300px;
+    height:100px;
+    background-position: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.description{
+    display:flex
+}
+.box4{
+    width:50vw;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: brown;
+    color: white;
+}
+.box5{
+    width: 50vw;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+.heading4, .heading5{
+   font-family:Lemon;
+}
+.finishing{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    background-color: black;
+    color: white;
+}
